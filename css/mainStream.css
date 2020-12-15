@@ -1,0 +1,647 @@
+
+
+/* all for one and onw for all begins here */
+h1,h2,h3,h4,#iCenter{
+  text-align: center;
+}
+a{
+  color: aqua;
+}
+
+#myHead{
+width: 98%;
+height: 50%;
+background: linear-gradient(135deg, #1489ed, #1489ed, #001dad);
+padding-bottom: 8%;
+padding-top: 2%;
+padding-right: 2%;
+padding-left: 2%;
+margin-left: -1%;
+z-index: 10;
+}
+#mother{
+width: 100%;
+height: 100%;
+/* background: linear-gradient(135deg, #1489ed, #1489ed, #001dad); */
+background-image: url(bg.jpg);
+background-size: contain;
+/* backface-visibility: hidden; */
+padding-bottom: 5%;
+padding-top: 5%;
+padding-right: 0%;
+padding-left: 0%;
+margin-left: 0%;
+z-index: 0;
+}
+#myIndexHead{
+width: 96%;
+height: 100%;
+/* background: linear-gradient(135deg, #1489ed, #1489ed, #001dad); */
+background: linear-gradient(135deg, #1489ed, #1489ed, #001dad);
+opacity: 0.8;
+padding-bottom: 25%;
+padding-top: 2%;
+padding-right: 2%;
+padding-left: 2%;
+margin-left: 0%;
+margin-right: 0%;
+z-index: 10;
+}
+
+#slider{
+  z-index: 5;
+  margin-left: 3%;
+  float: left;
+  margin-top: -40%;
+  opacity:0.5;
+}
+#name{
+z-index: 10;
+margin-left: 5%;
+color: white;
+}
+#slogan{
+z-index: 10;
+margin-left: 5%;
+color: white;
+font-family: Kunstler Script;
+font-size: 40px;
+}
+#logmMeIn{
+  list-style: none;
+  text-decoration: none;
+  white-space: nowrap;
+  position: relative;
+  display: block;
+  background: lime;
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  color: white;
+  float: right;
+  z-index: 11;
+}
+#logmMeIn > a{
+  text-decoration: none;
+}
+#logmMeIn:hover{
+  color: blue;
+  background-color: aqua;
+  transition-delay: 500ms;
+  transition-duration: 250ms;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+}
+#indexNavi{
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: none;
+  border-radius: 20%;
+  float: left;
+  width: 45%;
+  height: 25%;
+  color: white;
+  font-size: 15px;
+  z-index: 11;
+  margin-top: 20%;
+  margin-left: 30%;
+}
+#navi{
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: none;
+  border-radius: 20%;
+  float: left;
+  width: 50%;
+  height: 25%;
+  color: white;
+  font-size: 15px;
+  z-index: 10;
+  margin-top: 3%;
+  margin-left: 29%;
+}
+#navi > ul li{
+  position: relative;
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  width:80px;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 4%;
+  border-radius: 20px;
+}
+ul li a{
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: white;
+  z-index: 10;
+}
+#indexNavi > ul li{
+  position: relative;
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  width: 15%;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 1%;
+  border-radius: 20px;
+}
+ul li a{
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: white;
+  z-index: 10;
+}
+#menuNav{
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  z-index: 10;
+}
+#menuNav:hover{
+  transition-delay: 100ms;
+  transition-duration: 500ms;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  background: grey;
+
+}
+.active{
+  background: silver;
+}
+
+#iBelong{
+  text-align: left;
+}
+/* end head */
+body{
+  background: silver;
+}
+#myMainBody{
+width: 80%;
+height: auto;
+margin-left: 20%;
+}
+#myBody{
+width: 78%;
+margin-left: 1%;
+margin-right: 1%;
+}
+#mySide{
+
+}
+#downBelowSocial{
+width: 100%;
+height: auto;
+
+
+}
+#myFoot{
+width: 100%;
+height: auto;
+background: linear-gradient(135deg, #1489ed, #1489ed, #001dad);
+padding-bottom: 8%;
+padding-top: 2%;
+padding-right: 2%;
+padding-left: 2%;
+margin-left: -1%;
+z-index: 10;
+
+}
+#myFootLeft{
+  text-align: center;
+  color: silver;
+  float: left;
+  margin-left: 3%;
+  margin-right: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  width: 28%;
+  height: auto;
+  background: rgba(0,0,0,0.5);
+}
+#myFootCenter{
+  text-align: center;
+  color: silver;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 28%;
+  height: 250px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  background: rgba(0,0,0,0.5);
+}
+#myFootRight{
+  text-align: center;
+  color: silver;
+  float: right;
+  margin-left: 1%;
+  width: 28%;
+  height: 250px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  background: rgba(0,0,0,0.5);
+  margin-right: 3%;
+}
+#enclosedFeet{
+  margin-left: 10%;
+  width: 80%;
+  height: 60%;
+  border: none;
+  border-radius: 20px;
+  border-top: solid 1px silver;
+  border-bottom: solid 1px silver;
+  border-collapse: collapse;
+}
+
+#siteMap, #copyright, #design{
+text-align: center;
+float: center;
+}
+#mailTo, #readMore{
+  text-decoration: none;
+  color: aqua;
+}
+#mailto{
+  text-decoration: none;
+  color: aqua;
+  text-align: center;
+  width: 100%;
+  float: right;
+}
+
+/* all for one and onw for all ends here */
+
+/* needed by our about page */
+#background{
+  width: 90%;
+  margin-left: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#visionMission{
+  background-color: silver;
+}
+#imgVM{
+  float: left;
+  width: 100px;bottom
+  width: 100px;
+}
+
+/* needed by our category page */
+#placeAReserve{
+    background: rgba(0,0,0,0.8);
+    width: 96.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+#reserveField{
+  width: 90%;
+  margin-left: 5%;
+  color: black;
+  background-color: white;
+  padding-bottom: 1%;
+}
+#reserveBtn{
+  float: right;
+  width: 20%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 2px;
+  color: white;
+  background-color: #1489ed;
+  margin-right: 4.5%;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: none;
+}
+
+table{
+  margin-top: 2%;
+}
+#enclosedCover section fieldset section section{
+  display: none;
+}
+#enclosedCover section a{
+  display: block;
+  text-decoration: none;
+}
+#enclosedCover section:target fieldset section section{
+  display: block;
+}
+a h3{
+  color: black;
+  text-decoration: none;
+}
+a h3:hover{
+  color: #1489ed;
+  text-decoration: underline;
+}
+#accordian section ol li{
+  display: none;
+  color: silver;
+}
+#accordian section a{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: block;
+  white-space: wrap;
+  background-color: #1489ed;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-right: 2%;
+  height: 1%;
+  border-radius: 20px;
+}
+
+#accordian section a:hover{
+  text-decoration: underline;
+
+}
+#accordian section:target ol li{
+  display: block;
+  color: silver;
+  list-style: decimal;
+  /* background-color: #1489ed; */
+}
+#enclosedCategories{
+  width: 30%;
+  float: left;
+  margin-left: 1%;
+  background: rgba(0,0,0,0.8);
+  border: none;
+  height: auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* needed by our contact page */
+
+#myMainBodyContact{
+  margin-bottom: 1%;
+}
+#midFieldset{
+  border: none;
+}
+#myBodyContact{
+  width: 60%;
+  float: left;
+}
+#mySideContact{
+  width: 30%;
+  float: left;
+}
+#mySideContact > img{
+  width: 100%;
+}
+#myContactForm{
+  border: none;
+  background-color: black;
+  opacity: 0.8;
+  margin-left: 20%;
+  width: 60%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 15px;
+  margin-bottom: 2%;
+}
+#myContactLbl{
+color: silver;
+padding-left: 1%;
+}
+#myContactfield{
+  border: none;
+  border-bottom: 1px solid silver;
+  /* border-radius: 2px; */
+  color: white;
+  padding-left: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background-color: rgba(0,0,0,0.5);
+  width: 99%;
+  margin-bottom: 2%;
+}
+#myContactMessage{
+  border: none;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  border-radius: 20px;
+  color: silver;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(0,0,0,0.5);
+  width: 98%;
+  margin-right:1%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
+#btnSubmit{
+  width: 50%;
+  border: none;
+  color: white;
+  background-color: lime;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  float: left;
+  margin-bottom: 2%;
+}
+#btnSubmit:hover{
+  background-color: aqua;
+  /* filter: blur(0.5); */
+  transition-delay: 500ms;
+  transition-duration: 150ms;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  color: black;
+}
+#btnReset{
+  width: 50%;
+  border: none;
+  color: white;
+  background-color: grey;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+#btnReset:hover{
+  background-color: silver;
+  transition-delay: 500ms;
+  transition-duration: 150ms;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  color: black;
+}
+
+/* needed in login and registration */
+
+#bodyLogReg{
+  background-image: url(bg1.jpg);
+  background-size: cover;
+  filter: blur();
+}
+#intro{
+  width: 100%;
+  margin-left: -3%;
+  border: none;
+  /* background: black; */
+}
+#logReg{
+  color: silver;
+}
+#myAvatar{
+  border: 50%;
+  width: 120px;
+  height: 100px;
+  margin-left: 35%;
+  margin-bottom: 5%;
+}
+#formLogReg{
+  border: none;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  /* background-color: black; */
+  opacity: 0.8;
+  width: 25%;
+  margin-top: 5%;
+  margin-left: 37%;
+  border-radius: 20px;
+}
+#btnRegister{
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  /* margin-bottom: 1%; */
+  background-color: lime;
+  color: white;
+  border: none;
+}
+#btnRegister:hover{
+  background-color: aqua;
+  color: black;
+}
+#btnLogin{
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  /* margin-bottom: 1%; */
+  background-color: grey;
+  color: white;
+  border: none;
+}
+#btnLogin:hover{
+  background-color: aqua;
+  color: black;
+}
+#btnCancel{
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  background-color: red;
+  color: white;
+  border: none;
+}
+#btnCancel:hover{
+  background-color: aqua;
+  color: black;
+}
+
+/* needed in my login form */
+#btnLogin_login{
+  color: white;
+  text-decoration: none;
+  border-radius: 10% ;
+  border-top: 3px #3BB9FF solid;
+  border-bottom: 3px #3BB9FF solid;
+  border-left: none;
+  border-right: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  animation-delay: 500ms;
+  animation-duration: 500ms;
+  transition-delay: 500ms;
+  transition-duration: 500ms;
+  animation-direction: alternate-reverse;
+  background-color: inherit;
+}
+#btnLogin_login:hover{
+  color: #3BB9FF;
+  text-decoration: none;
+  border-radius: 10%;
+  border-top: 3px white solid;
+  border-bottom: 3px white solid;
+  border-left: none;
+  border-right: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 22.5px;
+  animation-delay: 500ms;
+  animation-duration: 500ms;
+  transition-delay: 500ms;
+  transition-duration: 500ms;
+  animation-direction: alternate-reverse;
+  background-color: none;
+}
+#btnRegister_login{
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  /* margin-bottom: 1%; */
+  background-color: grey;
+  color: white;
+  border: none;
+}
+#btnRegister_login:hover{
+  background-color: #001dad;
+  /* color: black; */
+}
